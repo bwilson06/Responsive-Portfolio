@@ -277,6 +277,8 @@ img.one{
     }
 
     .nav-links{
+        display: flex;
+        width: 90%;
         margin: 0 auto;
         padding: 12px;
         
@@ -284,7 +286,7 @@ img.one{
     
     .contentbox{
         width: 90%;
-        height: 1000px;
+        height: 100%;
         margin-bottom: 100px;
         
     }
@@ -342,6 +344,8 @@ img.one{
     }
 
     .nav-links{
+        display: flex;
+        width: 90%;
         margin: 0 auto;
         padding: 12px;
         
@@ -420,7 +424,7 @@ img.one{
     
     .contentbox{
         width: 70%;
-        height: 10%;
+        height: 100%;
         margin-bottom: 100px;
         float: left;
         margin-left: 50px;
