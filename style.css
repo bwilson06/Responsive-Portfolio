@@ -331,3 +331,147 @@ img.one{
         display: block;
     }
 }
+
+@media (min-width: 641px) and (max-width: 768px) {
+    .container{
+        display: block;
+        min-width: 100%;
+    } 
+    .nav{
+        width: 100%;
+    }
+
+    .nav-links{
+        margin: 0 auto;
+        padding: 12px;
+        
+    }
+    
+    .contentbox{
+        float: left;
+        width: 60%;
+        height: 60%;
+        margin-left: 40px;
+        margin-bottom: 100px;
+        
+    }
+
+    .contactbox{
+        float: left;
+        margin-left: 40px;
+        width: 60%;
+        height: 20%;
+        margin-bottom: 100px;
+    }
+
+    .input{
+        width: 80%
+    }
+
+    .message{
+        width: 80%;
+    }
+
+    .portfoliobox{
+        width: 90%;
+        height: 90%;
+        margin-bottom: 100px;
+    }
+
+    .portfolioimagesone{
+        display: block;
+        width: 50%;
+        height: 50%;
+        margin-left: 38px;
+    }
+
+    .portfolioimagestwo{
+        display: block;
+        margin-left: 38px;;
+
+    }
+
+    .portfolioimagesthree{
+        width:80%;
+        height: 25%;
+        margin-left: 38px;
+    }
+
+    .container_p{
+        display: block;
+    }
+}
+
+
+@media (max-width: 980px) and (min-width: 769px) {
+    .container{
+        display: block;
+        min-width: 100%;
+    }
+    .nav{
+        width: 100%;
+    }
+
+    .nav-links{
+        margin: 0 auto;
+        padding: 12px;
+        
+    }
+    
+    .contentbox{
+        width: 70%;
+        height: 10%;
+        margin-bottom: 100px;
+        float: left;
+        margin-left: 50px;
+        
+        
+    }
+
+    .contactbox{
+        width: 70%;
+        height: 10%;
+        margin-bottom: 100px;
+        float: left;
+        margin-left: 50px;
+    }
+
+    .input{
+        width: 80%
+    }
+
+    .message{
+        width: 80%;
+    }
+
+    .portfoliobox{
+        width: 70%;
+        height: 10%;
+        margin-bottom: 100px;
+        float: left;
+        margin-left: 50px;
+    }
+
+    .portfolioimagesone{
+        display: block;
+        width: 50%;
+        height: 50%;
+        margin-left: 38px;
+    }
+
+    .portfolioimagestwo{
+        display: block;
+        margin-left: 38px;;
+
+    }
+
+    .portfolioimagesthree{
+        width:80%;
+        height: 25%;
+        margin-left: 38px;
+    }
+
+    .container_p{
+        display: block;
+    }
+}
