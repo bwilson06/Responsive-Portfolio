@@ -1,0 +1,333 @@
+* body{
+    margin: 0;
+    padding: 0;
+    background-image: url("../images/herringbone.png");
+    background-attachment: fixed;
+}
+    
+    
+
+
+
+
+nav{
+    
+    display: flex;
+    align-items: center;
+    min-height: 8vh;
+    background-color: #ffffff;
+    border-bottom: thin;
+    border-color:#cccccc;
+    margin: 0;
+    padding: 0;
+    
+}
+
+.container{
+    background-color: #ffffff;
+    margin: 0 auto;
+    display: flex;
+    min-width: 960px;
+
+}
+
+.containerone{
+    display: flex;
+    flex: 1.5;
+    flex-direction: row;
+    background-color:white;
+}
+.logo{
+    min-height: 8vh;
+    display: flex;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    color:white;
+    background-color: #4aaaa5;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    font-size: 16px;
+    justify-content: space-evenly;
+    
+}
+
+
+
+
+
+.nav-links{
+    justify-content: space-between;
+    flex-direction: row-reverse;
+    align-items: center;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex: 1;
+
+}
+.nav-links li{
+    list-style: none;
+}
+
+.nav-links a{
+    color:gray;
+    text-decoration: none;
+    letter-spacing: 3px;
+    font-weight: bold;
+    font-family: 'Geogria';
+    font-size: 16px;
+}
+
+.burger{
+    display: none;
+}
+
+.burger div{
+    width: 25px;
+    height: 5px;
+    background-color: black;
+    margin: 5px;
+}
+
+@media screen and (max-width:1024px){
+    .nav-links{
+        width: 50%;
+        
+    }
+}
+
+
+
+
+
+.nav-active{
+    transform: translateX(0%);
+}
+
+
+
+
+.contentbox{
+    align-self: center;
+    margin: auto;
+    background-color: #ffffff;
+    width: 960px;
+    height: 550px;
+    border: 4px;
+    border-color: #dddddd;
+    
+    
+}
+
+.contentheader{
+
+    margin-left: 38px;
+    margin-top: 15px;
+    padding: 0;
+    font-size: 30px;
+    color: #4aaaa5;
+
+}
+
+img.one{
+    float: left;
+    margin-right: 38px;
+    margin-bottom: 38px;
+    margin-left: 38px;
+    margin-top: 10px;
+}
+
+.flex{
+    font-size: 18px;
+    line-height: 2;
+    margin: 38px;
+    color: #777777;
+    font-weight: bold;
+    font-family: 'sans-serif';
+    
+
+}
+
+.footer{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    border-top: 8px solid;
+    border-top-color: #4aaaaf;
+    color: white;
+    background-color: #666666;
+    width: 100%;
+    height: 40px;
+    text-align: center;
+    align-content: center;
+    align-items: center;
+    align-self: center;
+}
+
+.footertwo{
+    position: fixed;
+    bottom: 0;
+    background-color: #4aaaa5;
+    width: 100%;
+    height: 50px;
+    
+   
+}
+
+.input{
+    margin-left: 38px;
+    margin-right: 38px;
+    width: 878px;
+    height: 24px;
+}
+
+.contact{
+    margin-top: 16x;
+    margin-bottom: 6px;
+    margin-left: 38px;
+    font-family: 'Arial';
+    font-weight: bolder;
+    color: #777777;
+}
+
+.message {
+    resize:none;
+    margin-left: 38px;
+    margin-right: 38px;
+    width: 878px;
+    height: 200px;
+}
+
+.submit{
+    display: flex;
+    margin-left: 38px;
+    font-family: 'Arial';
+    background-color: #4aaaa5;
+    width: 80px;
+    height: 40px;
+    justify-content: space-evenly;
+    align-items: center;
+    color: white;
+    
+    
+}
+
+.contactbox{
+    align-self: center;
+    margin: auto;
+    background-color: #ffffff;
+    width: 960px;
+    height: 600px;
+    border: 4px;
+    border-color: #dddddd;
+}
+
+.portfoliobox{
+    align-self: center;
+    margin: auto;
+    background-color: #ffffff;
+    width: 960px;
+    height: 1100px;
+    border: 4px;
+    border-color: #dddddd;
+}
+
+.portfolioimagesone{
+    display: flex;
+    
+    margin-left:10px;
+    width:250px;
+    height: 200px;
+}
+
+.portfolioimagestwo{
+    display: flex;
+    margin-left: 10px;
+    margin-right: 38px;
+    width:250px;
+    height: 200px;
+}
+
+.container_p{
+    display: flex;
+    justify-items: auto;
+
+    
+}
+
+.portfolioimagesthree{
+    display: flex;
+    margin-left:38px;
+    width:884px;
+    height: 600px;
+    justify-items: auto;
+
+}
+
+
+
+@media (max-width: 640px){
+    .container{
+        display: block;
+        min-width: 100%;
+    }
+    .nav{
+        width: 100%;
+    }
+
+    .nav-links{
+        margin: 0 auto;
+        padding: 12px;
+        
+    }
+    
+    .contentbox{
+        width: 90%;
+        height: 1000px;
+        margin-bottom: 100px;
+        
+    }
+
+    .contactbox{
+        width: 90%;
+        margin-bottom: 100px;
+    }
+
+    .input{
+        width: 80%
+    }
+
+    .message{
+        width: 80%;
+    }
+
+    .portfoliobox{
+        width: 90%;
+        height: 90%;
+        margin-bottom: 100px;
+    }
+
+    .portfolioimagesone{
+        display: block;
+        width: 50%;
+        height: 50%;
+        margin-left: 38px;
+    }
+
+    .portfolioimagestwo{
+        display: block;
+        margin-left: 38px;;
+
+    }
+
+    .portfolioimagesthree{
+        width:80%;
+        height: 25%;
+        margin-left: 38px;
+    }
+
+    .container_p{
+        display: block;
+    }
+}
